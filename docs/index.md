@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/01-why-write-testing
+      link: /guide/00-introduction
     - theme: alt
       text: View on GitHub
       link: https://github.com/cuixiaorui/front-end-testing
