@@ -20,6 +20,31 @@ export default {
           { text: "在什么时候写测试", link: "/guide/05-when-writing-tests" },
         ],
       },
+      {
+        text: "第一个测试",
+        items:[
+          {
+            text: "编写第一个单元测试",
+            link: "/guide/06-write-first-unit-test",
+          },
+          {
+            text: "Vitest Test Api",
+            link: "/guide/07-vitest-test-api",
+          },
+          {
+            text: "Vitest Debug",
+            link: "/guide/08-vitest-debug",
+          },
+          {
+            text: "Vitest VS Jest",
+            link: "/guide/09-vitest-vs-jest",
+          },
+          {
+            text: "实现 mini test runner",
+            link: "/guide/10-mini-test-runner",
+          },
+        ]
+      },
     ],
   },
 };
