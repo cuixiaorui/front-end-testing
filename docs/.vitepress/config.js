@@ -1,7 +1,9 @@
 export default {
   title: "FrontEndTesting",
   description: "front end testing",
+
   themeConfig: {
+    logo:"/logo.png",
     sidebar: [
       {
         text: "Why&What",
@@ -45,6 +47,19 @@ export default {
           },
         ]
       },
+      {
+        text:"测试四部曲",
+        items:[
+          {
+            text: "准备数据",
+            link: "/guide/11-to-prepare-data",
+          },
+          {
+            text: "放置测试数据的策略",
+            link: "/guide/12-where-put-test-data",
+          },
+        ]
+      }
     ],
   },
 };

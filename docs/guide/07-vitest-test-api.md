@@ -1,6 +1,6 @@
 # Vitest Test Api
 
-## 本章要解决的问题
+## 目标
 - 学会使用 vitest 的 test api 的一些使用技巧
 - 测试套件
 - 生命周期 hooks 的执行顺序

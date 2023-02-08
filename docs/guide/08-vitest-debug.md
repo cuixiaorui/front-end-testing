@@ -1,6 +1,6 @@
 # Vitest Debug
 
-## 本章要解决的问题
+## 目标
 - 学会如何 debug vitest 测试
 - 过多手动 debug 的坏味道的解决方案
 
