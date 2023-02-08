@@ -58,6 +58,30 @@ export default {
             text: "放置测试数据的策略",
             link: "/guide/12-where-put-test-data",
           },
+          {
+            text: "程序的输入和输出",
+            link: "/guide/13-input-and-output",
+          },
+          {
+            text: "验证的方式",
+            link: "/guide/14-verify-way",
+          },
+          {
+            text: "验证哪些内容",
+            link: "/guide/15-verify-what",
+          },
+          {
+            text: "测试替身 Test Double",
+            link: "/guide/16-test-double",
+          },
+          {
+            text: "测试替身的类型",
+            link: "/guide/17-test-double-types",
+          },
+          {
+            text: "Setup 测试替身",
+            link: "/guide/18-setup-test-double",
+          },
         ]
       }
     ],
