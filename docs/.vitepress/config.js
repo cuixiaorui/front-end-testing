@@ -3,7 +3,7 @@ export default {
   description: "front end testing",
 
   themeConfig: {
-    logo:"/logo.png",
+    logo: "/logo.png",
     sidebar: [
       {
         text: "Why&What",
@@ -23,8 +23,8 @@ export default {
         ],
       },
       {
-        text: "第一个测试",
-        items:[
+        text: "初识 Vitest",
+        items: [
           {
             text: "编写第一个单元测试",
             link: "/guide/06-write-first-unit-test",
@@ -45,11 +45,11 @@ export default {
             text: "实现 mini test runner",
             link: "/guide/10-mini-test-runner",
           },
-        ]
+        ],
       },
       {
-        text:"测试四部曲",
-        items:[
+        text: "测试四部曲",
+        items: [
           {
             text: "准备数据",
             link: "/guide/11-to-prepare-data",
@@ -82,8 +82,188 @@ export default {
             text: "Setup 测试替身",
             link: "/guide/18-setup-test-double",
           },
-        ]
-      }
+          {
+            text: "分层测试",
+            link: "/guide/19-layer-test",
+          },
+          {
+            text: "参数化验证",
+            link: "/guide/20-parameterized-test",
+          },
+          {
+            text: "测试异步逻辑",
+            link: "/guide/21-test-asynchronous",
+          },
+          {
+            text: "测试 api",
+            link: "/guide/22-test-api",
+          },
+          {
+            text: "测试第三方库",
+            link: "/guide/23-test-third-party-library",
+          },
+          {
+            text: "测试日期",
+            link: "/guide/24-test-date",
+          },
+          {
+            text: "拆卸",
+            link: "/guide/25-tear-down",
+          },
+        ],
+      },
+      {
+        text: "测试原则",
+        items: [
+          {
+            text: "只测试一个关注点",
+            link: "/guide/26-test-only-one-focus",
+          },
+          {
+            text: "避免条件测试逻辑",
+            link: "/guide/27-avoid-condition-test-logic",
+          },
+          {
+            text: "保持测试独立",
+            link: "/guide/28-keeping-test-independent",
+          },
+          {
+            text: "保持简单易读",
+            link: "/guide/29-easy-and-read",
+          },
+          {
+            text: "易测性设计",
+            link: "/guide/30-testable-design",
+          },
+          {
+            text: "使用前门优先",
+            link: "/guide/31-use-the-front-door-first",
+          },
+          {
+            text: "隔离 SUT",
+            link: "/guide/32-isolation-SUT",
+          },
+          {
+            text: "完备而不重复",
+            link: "/guide/53-mature-and-not-repeat",
+          },
+        ],
+      },
+      {
+        text: "测试坏味道",
+        items: [
+          {
+            text: "低层次的断言",
+            link: "/guide/33-low-levels-of-assertions",
+          },
+          {
+            text: "过渡断言",
+            link: "/guide/34-transition-assertion",
+          },
+          {
+            text: "魔法字符串",
+            link: "/guide/35-magic-string",
+          },
+          {
+            text: "过分保护",
+            link: "/guide/36-overprotective",
+          },
+          {
+            text: "冗长安装",
+            link: "/guide/37-lengthy-installation",
+          },
+          {
+            text: "人格分裂",
+            link: "/guide/38-schizobulia",
+          },
+          {
+            text: "无关附加的细节",
+            link: "/guide/40-immaterial-details",
+          },
+          {
+            text: "重复",
+            link: "/guide/41-repetition",
+          },
+          {
+            text: "脆弱的测试",
+            link: "/guide/42-the-fragile-test",
+          },
+          {
+            text: "缺乏内聚",
+            link: "/guide/43-the-lack-of-cohesion",
+          },
+          {
+            text: "注释掉的测试",
+            link: "/guide/44-comment-out-the-test",
+          },
+          {
+            text: "歧义注释",
+            link: "/guide/45-ambiguity-annotation",
+          },
+          {
+            text: "永不失败的测试",
+            link: "/guide/46-never-failed-test",
+          },
+          {
+            text: "说谎的测试",
+            link: "/guide/47-the-test-of-lying",
+          },
+          {
+            text: "过于宽松",
+            link: "/guide/48-too-loose",
+          },
+          {
+            text: "断言滚轮",
+            link: "/guide/49-assertions-roller",
+          },
+          {
+            text: "手动调试",
+            link: "/guide/50-manual-debugging",
+          },
+          {
+            text: "手动干预",
+            link: "/guide/51-manual-intervention",
+          },
+          {
+            text: "缓慢测试",
+            link: "/guide/52-slow-test",
+          },
+        ],
+      },
+      {
+        text: "设计和可测试性",
+        items: [
+          {
+            text: "面向对象原则 SOLID 和可测试性",
+            link: "/guide/54-oop-and-SOLID",
+          },
+        ],
+      },
+      {
+        text: "项目实战",
+        items: [
+          {
+            text: "Vue3 的页面应用",
+            link: "/guide/55-vue3-project",
+          },
+          {
+            text: "Vue3 版本的俄罗斯方块",
+            link: "/guide/57-vue3-tetris",
+          },
+          {
+            text: "给 mini-vue 的 runtime core 添加测试",
+            link: "/guide/58-mini-vue-runtime-core-add-test",
+          },
+          {
+            text: "一个 TDD 项目",
+            link: "/guide/59-tdd-args",
+          },
+          {
+            text: "React 页面应用",
+            link: "/guide/56-react-project",
+          },
+        ],
+      },
     ],
   },
 };
