@@ -2,7 +2,7 @@
 
 ## 目标
 - vitest 对比 jest
-- 项目使用的是 jest ，但是你讲的是 vitest ，如果做知识的迁移
+- 项目使用的是 jest ，但是你讲的是 vitest ，如何做知识的迁移
 
 ## 大纲
 - vitest vs jest
