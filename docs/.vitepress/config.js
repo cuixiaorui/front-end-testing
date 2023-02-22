@@ -9,6 +9,10 @@ export default {
         text: "Why&What",
         items: [
           {
+            text: "前端单元测试课",
+            link: "/guide/course-overview",
+          },
+          {
             text: "概述",
             link: "/guide/00-introduction",
           },

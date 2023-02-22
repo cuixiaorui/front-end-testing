@@ -9,8 +9,8 @@ const { Layout } = DefaultTheme;
     <template #aside-ads-before>
       <div class="advertising">
         <div>
-          <a href="http://learn.cuixueshe.com">
-            课程即将开启预售
+          <a href="https://learn.cuixueshe.com/p/t_pc/goods_pc_detail/goods_detail/p_63f3795ee4b06159f73e6452?product_id=p_63f3795ee4b06159f73e6452">
+            课程预售ing
           </a>
         </div>
       </div>
