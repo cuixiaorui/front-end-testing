@@ -14,9 +14,10 @@ import CVideo from '../components/CVideo.vue'
   - 更高阶的调试手法
     - 验证局部逻辑 一步到位
 - 对修改代码更加自信
-  - 重构代码
   - 新增功能
-- 减少重复工作
+  - 重构代码
+- 活文档
+- 改善程序设计
 
 ## 提高开发效率
 <CVideo src="//player.bilibili.com/player.html?aid=652198267&bvid=BV1me4y1c7nM&cid=1016712076&page=1"/>
