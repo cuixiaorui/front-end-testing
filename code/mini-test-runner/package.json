@@ -1,0 +1,21 @@
+{
+  "name": "mini-test-runner",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.29.7"
+  },
+  "dependencies": {
+    "esbuild": "^0.17.12",
+    "glob": "^9.3.2",
+    "vite": "^4.2.1"
+  }
+}
