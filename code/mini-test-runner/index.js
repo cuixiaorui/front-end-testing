@@ -17,11 +17,8 @@ async function runModule(fileContent) {
     const result = await build({
       stdin: {
         contents: fileContent,
-        resolveDir: process.cwd(),
-        loader: "js",
+        resolveDir: process.cwd()
       },
-      format: "esm",
-      platform: "node",
       write: false,
       bundle: true,
       target: "esnext",
