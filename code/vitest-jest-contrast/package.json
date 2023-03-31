@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:vitest": "vitest run", 
-    "test:jest":"jest"
+    "test:vitest": "vitest run",
+    "test:jest": "jest",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
