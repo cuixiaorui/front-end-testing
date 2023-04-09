@@ -1,0 +1,17 @@
+{
+  "name": "vitest-foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "debug:test": "vitest --inspect-brk --single-thread"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/ui": "^0.29.7",
+    "vitest": "^0.29.3"
+  }
+}
