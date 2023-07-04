@@ -6,7 +6,7 @@ describe("todo", () => {
   beforeEach(() => {
     setActivePinia(createPinia());
   });
-  it("add todo", () => {
+  it("add todo to list ", () => {
     const todoStore = useTodoStore();
     todoStore.addTodo("heihei");
     expect(todoStore.todos[0].title).toEqual("heihei");

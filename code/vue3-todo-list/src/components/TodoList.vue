@@ -24,8 +24,11 @@ const newTodo = ref("");
 
 function handleAddTodo() {
   todoStore.addTodo(newTodo.value);
-  newTodo.value = ""
+  newTodo.value = "";
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.app {
+}
+</style>

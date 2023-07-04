@@ -1,0 +1,15 @@
+lockfileVersion: 5.4
+
+specifiers:
+  flush-promises: ^1.0.2
+
+devDependencies:
+  flush-promises: registry.npmmirror.com/flush-promises/1.0.2
+
+packages:
+
+  registry.npmmirror.com/flush-promises/1.0.2:
+    resolution: {integrity: sha512-G0sYfLQERwKz4+4iOZYQEZVpOt9zQrlItIxQAAYAWpfby3gbHrx0osCHz5RLl/XoXevXk0xoN4hDFky/VV9TrA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/flush-promises/-/flush-promises-1.0.2.tgz}
+    name: flush-promises
+    version: 1.0.2
+    dev: true

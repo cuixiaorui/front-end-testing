@@ -22,7 +22,6 @@ export const useTodoStore = defineStore("todo", () => {
 
   function addTodo(title: string) {
     // if (isAdded) return;
-
     type CommandNames = "top" | "reverse";
     const commandHandlers = {
       top: (todo: TodoItem, todos: Todos) => {
