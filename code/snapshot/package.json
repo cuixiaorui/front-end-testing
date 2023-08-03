@@ -1,0 +1,5 @@
+{
+	"devDependencies": {
+		"@vue/test-utils": "^2.4.1"
+	}
+}

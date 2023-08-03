@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`file 1`] = `"<div id=\\"hi\\"> hi </div>"`;
+
+exports[`snapshot 1`] = `"<div id=\\"hi\\"> hi how are you </div>"`;
